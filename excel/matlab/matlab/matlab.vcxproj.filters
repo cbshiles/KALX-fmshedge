@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6929dca6-7816-42af-ae43-7b478af0e04f}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c2f46171-318e-42f4-83d2-b69e93a1f844}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matlab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="secant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xllrdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hitting_times_bisection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="median_hitting_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitOrder_Median.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitOrder_Median_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitOrder_Median_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
